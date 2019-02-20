@@ -6,6 +6,7 @@ import rp from 'request-promise'
 import cors from "./config/cors";
 
 import Blockchain from './lib/blockchain'
+import Transaction from './lib/transaction'
 
 const port = process.env.PORT || 5000;
 const blockchain = express();
